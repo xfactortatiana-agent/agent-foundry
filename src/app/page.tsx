@@ -2,13 +2,13 @@ export default function Home() {
   return (
     <div style={{ minHeight: '100vh' }}>
       {/* Hero */}
-      <section style={{ 
-        padding: '120px 24px', 
+      <section style={{
+        padding: '120px 24px',
         textAlign: 'center',
         background: 'linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%)'
       }}>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-          <div style={{ 
+          <div style={{
             display: 'inline-block',
             padding: '8px 16px',
             background: 'rgba(0, 255, 156, 0.1)',
@@ -23,10 +23,10 @@ export default function Home() {
           }}>
             🤖 AI Agents That Actually Work
           </div>
-          
-          <h1 style={{ 
-            fontSize: '56px', 
-            fontWeight: 800, 
+
+          <h1 style={{
+            fontSize: '56px',
+            fontWeight: 800,
             margin: '0 0 24px',
             background: 'linear-gradient(135deg, #fff 0%, #a0a0a0 100%)',
             WebkitBackgroundClip: 'text',
@@ -34,10 +34,10 @@ export default function Home() {
           }}>
             Tatiana's Agent Foundry
           </h1>
-          
-          <p style={{ 
-            fontSize: '20px', 
-            color: '#888', 
+
+          <p style={{
+            fontSize: '20px',
+            color: '#888',
             lineHeight: 1.6,
             marginBottom: '40px'
           }}>
@@ -45,9 +45,9 @@ export default function Home() {
             <br />
             From templates to fully-managed trading bots.
           </p>
-          
+
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a 
+            <a
               href="#pricing"
               style={{
                 padding: '16px 32px',
@@ -61,7 +61,7 @@ export default function Home() {
             >
               View Pricing
             </a>
-            <a 
+            <a
               href="#templates"
               style={{
                 padding: '16px 32px',
@@ -86,9 +86,9 @@ export default function Home() {
           <p style={{ fontSize: '14px', color: '#666', marginBottom: '24px' }}>
             Trusted by solo founders, traders, and automation enthusiasts
           </p>
-          <div style={{ 
-            display: 'flex', 
-            gap: '48px', 
+          <div style={{
+            display: 'flex',
+            gap: '48px',
             justifyContent: 'center',
             flexWrap: 'wrap',
             opacity: 0.5
@@ -114,8 +114,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div style={{ 
-            display: 'grid', 
+          <div style={{
+            display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
             gap: '24px'
           }}>
@@ -186,8 +186,8 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 style={{ margin: 0, fontSize: '20px', fontWeight: 700 }}>{agent.name}</h3>
-                    <span style={{ 
-                      fontSize: '10px', 
+                    <span style={{
+                      fontSize: '10px',
                       fontWeight: 600,
                       color: agent.color,
                       letterSpacing: '0.1em'
@@ -196,11 +196,11 @@ export default function Home() {
                     </span>
                   </div>
                 </div>
-                
+
                 <p style={{ color: '#888', lineHeight: 1.6, marginBottom: '20px' }}>
                   {agent.desc}
                 </p>
-                
+
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
                   {agent.features.map((f) => (
                     <span key={f} style={{
@@ -232,8 +232,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div style={{ 
-            display: 'grid', 
+          <div style={{
+            display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
             gap: '24px',
             alignItems: 'start'
@@ -248,16 +248,16 @@ export default function Home() {
               <h3 style={{ fontSize: '14px', fontWeight: 600, color: '#888', letterSpacing: '0.1em', margin: '0 0 16px' }}>
                 STARTER
               </h3>
-              
+
               <div style={{ marginBottom: '24px' }}>
                 <span style={{ fontSize: '48px', fontWeight: 800 }}>$299</span>
                 <span style={{ color: '#666' }}> one-time</span>
               </div>
-              
+
               <p style={{ color: '#888', marginBottom: '32px', lineHeight: 1.6 }}>
                 All 6 agent templates. Full source code. Self-hosted.
               </p>
-              
+
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, marginBottom: '32px' }}>
                 {[
                   '6 Premium Agent Templates',
@@ -271,7 +271,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              
+
               <button style={{
                 width: '100%',
                 padding: '16px',
@@ -309,20 +309,20 @@ export default function Home() {
               }}>
                 MOST POPULAR
               </div>
-              
+
               <h3 style={{ fontSize: '14px', fontWeight: 600, color: '#00ff9c', letterSpacing: '0.1em', margin: '0 0 16px' }}>
                 PRO
               </h3>
-              
+
               <div style={{ marginBottom: '24px' }}>
                 <span style={{ fontSize: '48px', fontWeight: 800 }}>$29.99</span>
                 <span style={{ color: '#666' }}>/mo</span>
               </div>
-              
+
               <p style={{ color: '#888', marginBottom: '32px', lineHeight: 1.6 }}>
                 Templates + Cloud hosting + Storm deposit bot access. Everything you need.
               </p>
-              
+
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, marginBottom: '32px' }}>
                 {[
                   'Everything in Starter',
@@ -337,7 +337,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              
+
               <button style={{
                 width: '100%',
                 padding: '16px',
@@ -352,7 +352,7 @@ export default function Home() {
             >
               Start Pro Plan
               </button>
-              
+
               <div style={{ marginTop: '16px', fontSize: '11px', color: '#666', lineHeight: 1.5 }}>
                 *Storm bot: You provide capital, I take 20% of profits
                 <br />
@@ -370,16 +370,16 @@ export default function Home() {
               <h3 style={{ fontSize: '14px', fontWeight: 600, color: '#888', letterSpacing: '0.1em', margin: '0 0 16px' }}>
                 ENTERPRISE
               </h3>
-              
+
               <div style={{ marginBottom: '24px' }}>
-                <span style={{ fontSize: '48px', fontWeight: 800 }}>$2k–10k</span>
+                <span style={{ fontSize: '48px', fontWeight: 800 }}>$2k-10k</span>
                 <span style={{ color: '#666' }}> project</span>
               </div>
-              
+
               <p style={{ color: '#888', marginBottom: '32px', lineHeight: 1.6 }}>
                 Custom agent built for your specific use case. Bespoke solution.
               </p>
-              
+
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, marginBottom: '32px' }}>
                 {[
                   'Custom Agent Development',
@@ -393,7 +393,7 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              
+
               <button style={{
                 width: '100%',
                 padding: '16px',
@@ -410,7 +410,7 @@ export default function Home() {
           </div>
 
           {/* Infrastructure Tier */}
-          <div style={{ 
+          <div style={{
             marginTop: '24px',
             padding: '32px',
             background: 'rgba(255,255,255,0.02)',
@@ -428,9 +428,9 @@ export default function Home() {
                 For custom builds or high-volume users. 99.9% SLA, auto-updates, dedicated support.
               </p>
             </div>
-            
+
             <div style={{ textAlign: 'right' }}>
-              <span style={{ fontSize: '32px', fontWeight: 800 }}>$99–499</span>
+              <span style={{ fontSize: '32px', fontWeight: 800 }}>$99-499</span>
               <span style={{ color: '#666' }}>/mo</span>
             </div>
           </div>
@@ -443,13 +443,13 @@ export default function Home() {
           <h2 style={{ fontSize: '32px', fontWeight: 700, margin: '0 0 24px' }}>
             API Costs Covered
           </h2>
-          
+
           <p style={{ fontSize: '16px', color: '#888', lineHeight: 1.8, marginBottom: '40px' }}>
             Your $29.99/mo Pro plan includes up to $25 in API costs. Here's the breakdown:
           </p>
 
-          <div style={{ 
-            display: 'grid', 
+          <div style={{
+            display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
             gap: '16px',
             textAlign: 'left'
@@ -473,20 +473,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-
-          <div style={{ 
-            marginTop: '32px',
-            padding: '24px',
-            background: 'rgba(0, 255, 156, 0.05)',
-            border: '1px solid rgba(0, 255, 156, 0.2)',
-            borderRadius: '12px'
-          }}>
-            <div style={{ fontSize: '14px', color: '#888' }}>
-              <strong style={{ color: '#00ff9c' }}>Margin per Pro user: $5-25/mo (17-83%)</strong>
-              <br />
-              Sustainable even at scale. Heavy users can upgrade to Infrastructure tier.
-            </div>
-          </div>
         </div>
       </section>
 
@@ -500,7 +486,7 @@ export default function Home() {
           {[
             {
               q: 'Do I need coding skills?',
-              a: 'For Starter: basic knowledge helps but docs are thorough. For Pro: zero coding—we handle everything. For Enterprise: we build it for you.'
+              a: 'For Starter: basic knowledge helps but docs are thorough. For Pro: zero coding-we handle everything. For Enterprise: we build it for you.'
             },
             {
               q: 'How does the Storm bot work?',
@@ -537,12 +523,12 @@ export default function Home() {
           <h2 style={{ fontSize: '40px', fontWeight: 700, margin: '0 0 24px' }}>
             Ready to deploy your first agent?
           </h2>
-          
+
           <p style={{ fontSize: '18px', color: '#888', marginBottom: '40px' }}>
             Join founders, traders, and automation enthusiasts building with AI.
           </p>
 
-          <a 
+          <a
             href="#pricing"
             style={{
               display: 'inline-block',
